@@ -1,6 +1,6 @@
 # movie-sales
 
-A little project that i coded back at 2015 when i was still a college student and still learning the basics of Web Development.
+A little project that i coded back at 2014 when i was still a college student and still learning the basics of Web Development.
 
 Basically, it consists in a simple website that allows the clients to buy or rent movies of several categories. This project only has the Frontend, no backend programming at all.
 
