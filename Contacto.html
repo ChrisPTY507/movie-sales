@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title> Eliminar cuenta </title>
+
+<style>
+
+#lol {
+
+background: linear-gradient(#FFFFCC,#E6E6B8,#CCCCA3);
+margin-top:20px;
+margin-left:40px;
+border-style:inset;
+border-color:orange;
+border-width:7px;
+width:1000px;
+height:650px;
+text-align:center;
+	}
+
+
+body {
+
+background: linear-gradient(black,blue,black);
+
+}
+
+</style>
+
+
+<script>
+
+	function PopupCenter(pageURL, title,w,h) {
+
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	
+	} 
+
+	function msj() {
+
+
+	alert("Agradeceriamos que en la Descripcion introduzcas la razon por la que te gustaria eliminar la cuenta de nuestro servicio.");
+
+	}
+
+	function msj2() {
+
+
+	alert("Los campos han sido vaciados!");
+
+	}
+
+	</script>
+
+</head>
+
+<body onload="msj()">
+
+<div id="lol">
+
+<br><br><br>
+<span style="font-size:3em;"> Eliminar cuenta </span>
+<br><br><br>
+
+<form method="post">
+Razones por las que desea eliminar su cuenta: <br><br> <textarea rows="17" cols="90" ></textarea> <br><br>
+<br>
+
+<input type="submit" name="enviar" value="Enviar" style="height:30px; width:80px" title="Notifica automaticamente al administrador de la pagina la razon por la cual usted desea eliminar su cuenta"> <input type="reset" name="borrar" value="Vaciar campo" style="height:30px; width:130px" title="Borra todo lo escrito en el campo">
+</form>	
+
+
+</div>
+
+</body>
+
+</html>

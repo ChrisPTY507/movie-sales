@@ -1,0 +1,21 @@
+#contenedor {
+
+
+background: linear-gradient(#FFFFCC,#E6E6B8,#CCCCA3);
+margin-top:60px;
+margin-left:15%;
+border-style:inset;
+border-color:orange;
+border-width:7px;
+width:1000px;
+height:650px;
+
+}	  
+
+body {
+
+background: linear-gradient(black,blue,black);
+text-align:center;
+overflow-x: hidden;
+
+}

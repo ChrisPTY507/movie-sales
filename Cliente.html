@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <meta name="Diseño made by Chris!" content="Proyecto final | Desarrollo web" />
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/estilos.css">
+	<script src="bootstrap/js/jquery.js"></script>
+  	<script src="bootstrap/js/tab.js"></script> 
+
+        <title> Proyecto de Desarrollo de Software 6</title>
+
+        <link rel="stylesheet" type="text/css"  href="Cliente_Estilo.css" />
+
+
+	<script>
+
+
+	function msj2() {
+
+
+	alert("Los campos han sido vaciados!");
+
+	}
+	</script>
+
+
+    </head>
+
+<body>
+
+
+<div id="contenedor">	
+
+		<ul class="nav nav-tabs" id="myTab">
+
+		  <li><a href="#Home" data-toggle="tab">Inicio</a></li>
+		  <li><a href="#Mantenimiento" data-toggle="tab">Mantenimiento</a></li>
+		  <li><a href="#ConsultaC" data-toggle="tab">Consultas de Clientes</a></li>
+		  <li><a href="#ConsultaP" data-toggle="tab">Consultas de Peliculas</a></li>
+
+		</ul>
+
+		<div class="tab-content">
+		
+			<div class="tab-pane" id="Mantenimiento">
+		  	
+			
+<div style="border-color:orange;border-width:3%;border-style:groove;width:70%;border-width:9px;margin-top:5%;margin-left:13%;">
+
+<br><h1> <strong> Mantenimiento de Pelicula </strong></h1>
+<br><br><br>
+
+
+<span style="font-size:1.5em;">
+
+<a href="Insertar_Pelicula.html" target="_blank" style="color:orange;font-size:1.2em;"> Insertar nueva pelicula </a> <br><br>
+<a href="Modificar_Pelicula.html" target="_blank" style="color:orange;font-size:1.2em;"> Modificar pelicula existente </a> <br><br>
+<a href="Eliminar_Pelicula.html" target="_blank" style="color:orange;font-size:1.2em;"> Eliminar pelicula existente </a> <br><br><br>
+
+</span>
+
+</div>	
+
+			
+			</div>
+
+			<div class="tab-pane" id="ConsultaC"> 
+
+
+<div style="border-color:orange;border-width:3%;border-style:groove;width:70%;border-width:9px;margin-top:5%;margin-left:13%;">
+
+<br><h1> <strong> Informacion de Cliente y Alquiler </strong></h1>
+<br><br><br>
+
+
+<span style="font-size:1.5em;">
+
+<a href="Cliente1.html" target="_blank" style="color:orange;font-size:1.2em;"> Cliente específico el  detalle de películas alquiladas y compradas. </a> <br><br>
+<a href="Cliente2.html" target="_blank" style="color:orange;font-size:1.2em;"> Total de alquiler de películas por cada cliente. </a> <br><br><br>
+
+</span>
+
+</div>
+
+
+			</div>			
+
+			<div class="tab-pane" id="ConsultaP">		  	
+				
+
+<div style="border-color:orange;border-width:3%;border-style:groove;width:70%;border-width:9px;margin-top:5%;margin-left:13%;">
+
+<br><h1> <strong> Informacion de Peliculas </strong></h1>
+<br><br><br>
+
+
+<span style="font-size:1.5em;">
+
+<a href="Pelicula1.html" target="_blank" style="color:orange;font-size:1.2em;"> Las 3 películas más alquiladas. </a> <br><br>
+<a href="Pelicula2.html" target="_blank" style="color:orange;font-size:1.2em;"> Género más gustado por los clientes. </a> <br><br>
+<a href="Pelicula3.html" target="_blank" style="color:orange;font-size:1.2em;"> Para el mes actual, ¿cual fue la película que más se alquiló? </a> <br><br><br>
+
+</span>
+
+</div>
+
+
+			</div>
+
+<div class="tab-pane" id="Home" style="background-color:white;padding-bottom:15.5%;"><br>
+<img src="10385154_10200996727080708_254448598_n.jpg" />		  	
+
+
+
+			</div>
+
+
+		</div>
+
+		<script>
+		  $(function () {
+		    $('#myTab a:first').tab('show')
+		  })
+		</script>
+		
+	</div>		
+
+    </body>
+</html>

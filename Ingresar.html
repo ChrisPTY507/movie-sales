@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title> Ingresar </title>
+
+<style>
+
+#lol {
+
+background: linear-gradient(#FFFFCC,#E6E6B8,#CCCCA3);
+margin-top:20px;
+margin-left:40px;
+border-style:inset;
+border-color:orange;
+border-width:7px;
+width:500px;
+height:360px;
+text-align:center;
+	}
+
+
+body {
+
+background: linear-gradient(black,blue,black);
+
+}
+
+</style>
+
+
+<script>
+
+	function PopupCenter(pageURL, title,w,h) {
+
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	
+	} 
+
+
+	function msj2() {
+
+
+	alert("Los campos han sido vaciados!");
+
+	}
+
+	</script>
+
+</head>
+
+<body>
+
+<div id="lol">
+
+<br><br><br>
+<span style="font-size:2em;"> Ingresar </span>
+<br><br><br>
+
+<form method="post">
+
+Correo Electronico: <input type="text" name="correo"><br><br>
+Contrase&ntilde;a: <input type="password" name="contra"><br><br><br>
+
+
+<input type="submit" name="enviar" value="Enviar" style="height:30px; width:80px" title="Enviar datos introducidos en los campos"> <input type="reset" name="borrar" value="Vaciar campos" style="height:30px; width:130px" onclick="msj2()" title="Borra todo el texto introducido en los campos">
+<br><br>
+
+<a href="javascript:void(0);" onclick="PopupCenter('Recuperar.html', 'myPop1',1300,700);">¿Has olvidado tu contraseña?</a>
+
+</form>	
+
+
+</div>
+
+</body>
+
+</html>
